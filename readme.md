@@ -35,8 +35,14 @@ Para configurar o ambiente de desenvolvimento, siga os passos abaixo:
 2. Instale as dependências:
    ```bash
    npm install
+   npm install expo-router
+   npx expo install expo-router react-native-safe-area-context react-native-screens expo-linking expo-constants expo-status-bar
 
-3. Inicie o aplicativo:
+3. Atualizar AppEntry.js:
    ```bash
-   npx expo 
+   import App from '../../app/App'
+ 
+4. Inicie o aplicativo:
+   ```bash
+   npx expo start -c
    
