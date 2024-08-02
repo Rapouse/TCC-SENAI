@@ -36,7 +36,7 @@ Para configurar o ambiente de desenvolvimento, siga os passos abaixo:
    ```bash
    npm install
 
-3. Inicio o aplicativo:
+3. Inicie o aplicativo:
    ```bash
    npx expo 
    
