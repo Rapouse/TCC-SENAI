@@ -41,8 +41,12 @@ Para configurar o ambiente de desenvolvimento, siga os passos abaixo:
 3. Atualizar AppEntry.js:
    ```bash
    import App from '../../app/App'
+
+4. Utilizar versão web:
+   ```bash
+   npx expo install react-dom react-native-web @expo/metro-runtime   
  
-4. Inicie o aplicativo:
+5. Inicie o aplicativo:
    ```bash
    npx expo start -c
    
